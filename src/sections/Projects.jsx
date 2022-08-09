@@ -2,24 +2,22 @@ import React from "react";
 
 const Projects = () => {
   return (
-    <section className='relative w-full bg-white'>
-      <div className='absolute w-full h-32 bg-gradient-to-b from-gray-100 to-white' ></div>
+    <section
+      className='relative w-full bg-white dark:bg-slate-900'
+      id='#projects'>
+      <div className='absolute w-full h-32 bg-gradient-to-b from-slate-100 to-white dark:from-slate-800 dark:to-slate-900'></div>
       <div className='relative w-full px-5 py-10 mx-auto sm:py-12 md:py-16 md:px-10 max-w-7xl'>
-        <h1 className='mb-1 text-4xl font-extrabold leading-none text-gray-900 lg:text-5xl xl:text-6xl sm:mb-3'>
-          <a href='#'>The Project Blog</a>
+        <h1 className='mb-1 text-4xl font-extrabold leading-none text-slate-900 dark:text-slate-50 lg:text-5xl xl:text-6xl sm:mb-3'>
+          <a href='#'>Projects</a>
         </h1>
-        <p className='text-lg font-medium text-gray-500 sm:text-2xl'>
+        <p className='text-lg font-medium text-slate-500 sm:text-2xl dark:text-slate-400'>
           Designs and layouts to help you with your app.
         </p>
         <div className=' grid h-full grid-cols-12 gap-10 pb-10 mt-8 sm:mt-16'>
           <div className='relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4'>
             <a
               href='#'
-              className='block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110'
-              style={{
-                backgroundImage:
-                  "url('https://cdn.devdojo.com/images/may2021/quench-satisfying.jpg')",
-              }}></a>
+              className='block w-full transition duration-300 ease-in-out transform bg-center  bg-cover h-96 hover:scale-110 bg-[url(https://cdn.devdojo.com/images/may2021/quench-satisfying.jpg)]'></a>
             <div className='relative z-20 w-full h-auto py-8 text-white bg-purple-500 border-t-0 border-yellow-200 px-7'>
               <a
                 href='#'
@@ -39,11 +37,7 @@ const Projects = () => {
           <div className='relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group md:col-span-6 xl:col-span-4'>
             <a
               href='#'
-              className='block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110'
-              style={{
-                backgroundImage:
-                  "url('https://cdn.devdojo.com/images/may2021/orange.jpg')",
-              }}></a>
+              className='block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110 bg-[url(https://cdn.devdojo.com/images/may2021/orange.jpg)]'></a>
             <div className='relative z-20 w-full h-auto py-8 text-white bg-blue-400 border-t-0 border-yellow-200 px-7'>
               <a
                 href='#'
@@ -63,7 +57,7 @@ const Projects = () => {
           <div className='relative flex flex-col items-start justify-end h-full col-span-12 overflow-hidden rounded-xl group sm:col-span-12 xl:col-span-4 sm:flex-row xl:flex-col'>
             <a
               href='#'
-              className='block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110'
+              className='block w-full transition duration-300 ease-in-out transform bg-center bg-cover h-96 hover:scale-110 bg-[url()]'
               style={{
                 backgroundImage:
                   "url('https://cdn.devdojo.com/images/may2021/gbc.jpg')",
@@ -90,18 +84,18 @@ const Projects = () => {
                 href='#'
                 className='block transition duration-200 ease-out transform hover:scale-110'>
                 <img
-                  className='object-cover w-full shadow-sm max-h-56'
+                  className='object-cover w-full shadow-sm max-h-56 aspect-video'
                   src='https://cdn.devdojo.com/images/may2021/workstation.jpg'
                 />
               </a>
-              <div className='relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl'>
-                <div className='bg-indigo-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block'>
+              <div className='relative flex flex-col items-start px-6 bg-white dark:bg-slate-800 border border-t-0 border-slate-200 dark:border-slate-700 py-7 rounded-b-2xl'>
+                <div className='bg-indigo-400 absolute top-0 -mt-3  items-center px-3 py-1.5 leading-none w-auto rounded-full text-xs font-medium uppercase text-white  inline-block'>
                   <span>Inspiration</span>
                 </div>
-                <h2 className='text-base font-bold sm:text-lg md:text-xl'>
+                <h2 className='text-base font-bold sm:text-lg md:text-xl dark:text-slate-50'>
                   <a href='#'>Best Workstations of the Year</a>
                 </h2>
-                <p className='mt-2 text-sm text-gray-500'>
+                <p className='mt-2 text-sm text-slate-500 dark:text-slate-400'>
                   Check out these inspiring workstations to get ideas on how to
                   level-up your workstation.
                 </p>
@@ -113,18 +107,18 @@ const Projects = () => {
                 href='#'
                 className='block transition duration-200 ease-out transform hover:scale-110'>
                 <img
-                  className='object-cover w-full shadow-sm max-h-56'
+                  className='object-cover w-full shadow-sm max-h-56 aspect-video'
                   src='https://cdn.devdojo.com/images/may2021/snacks.jpg'
                 />
               </a>
-              <div className='relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl'>
-                <div className='bg-red-400 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block'>
+              <div className='relative flex-col items-start px-6 bg-white dark:bg-slate-800 border border-t-0 border-slate-200 dark:border-slate-700  py-7 rounded-b-2xl'>
+                <div className='bg-red-400 absolute top-0 -mt-3 items-center px-3 py-1.5 leading-none w-auto  rounded-full text-xs font-medium uppercase text-white inline-block'>
                   <span>Food</span>
                 </div>
-                <h2 className='text-base font-bold sm:text-lg md:text-xl'>
+                <h2 className='text-base font-bold sm:text-lg md:text-xl dark:text-slate-50'>
                   <a href='#'>Eating for Productivity</a>
                 </h2>
-                <p className='mt-2 text-sm text-gray-500'>
+                <p className='mt-2 text-sm text-slate-500 dark:text-slate-400'>
                   Learn how to be more disciplined in your diet and how you can
                   eat to maximize productivity.
                 </p>
@@ -136,18 +130,18 @@ const Projects = () => {
                 href='#'
                 className='block transition duration-200 ease-out transform hover:scale-110'>
                 <img
-                  className='object-cover w-full shadow-sm max-h-56'
+                  className='object-cover w-full shadow-sm max-h-56 aspect-video'
                   src='https://cdn.devdojo.com/images/may2021/book-design.jpg'
                 />
               </a>
-              <div className='relative flex flex-col items-start px-6 bg-white border border-t-0 border-gray-200 py-7 rounded-b-2xl'>
-                <div className='bg-purple-500 absolute top-0 -mt-3 flex items-center px-3 py-1.5 leading-none w-auto inline-block rounded-full text-xs font-medium uppercase text-white inline-block'>
+              <div className='relative flex flex-col items-start px-6 bg-white dark:bg-slate-800 border border-t-0 border-slate-200 dark:border-slate-700  py-7 rounded-b-2xl'>
+                <div className='bg-purple-500 absolute top-0 -mt-3 items-center px-3 py-1.5 leading-none w-auto rounded-full text-xs font-medium uppercase text-white inline-block'>
                   <span>Resources</span>
                 </div>
-                <h2 className='text-base font-bold sm:text-lg md:text-xl'>
+                <h2 className='text-base font-bold sm:text-lg md:text-xl dark:text-slate-50'>
                   <a href='#'>A Design Mind-set</a>
                 </h2>
-                <p className='mt-2 text-sm text-gray-500'>
+                <p className='mt-2 text-sm text-slate-500 dark:text-slate-400'>
                   What does it mean to have a design mind-set? Learn how to
                   improve your eye for design.
                 </p>

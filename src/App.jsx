@@ -9,7 +9,7 @@ import Skills from "./sections/Skills";
 function App() {
 
   return (
-    <div className='antialiased bg-white dark:bg-gray-900'>
+    <div className='antialiased bg-white dark:bg-shark-900'>
       <Header />
       <Projects />
       <Skills />

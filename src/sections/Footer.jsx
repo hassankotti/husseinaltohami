@@ -1,19 +1,16 @@
 import React from "react";
+import Logo from "../components/Logo";
 
 const Footer = () => {
   return (
-    <section className='text-gray-700 bg-white body-font'>
+    <section className='text-slate-700 bg-white dark:bg-slate-800 body-font'>
       <div className='container flex flex-col items-center px-8 py-8 mx-auto max-w-7xl sm:flex-row'>
-        <a
-          href='#_'
-          className='text-xl font-black leading-none text-gray-900 select-none logo'>
-          tails<span className='text-indigo-600'>{"."}</span>
-        </a>
-        <p className='mt-4 text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l sm:border-gray-200 sm:mt-0'>
-          © 2021 Tails - Tailwindcss Page Builder
+        <Logo />
+        <p className='mt-4 text-sm text-slate-500 dark:text-slate-400 sm:ml-4 sm:pl-4 sm:border-l sm:border-slate-200 dark:sm:border-slate-500 sm:mt-0'>
+          © 2021 Si7s - Tailwindcss Page Builder
         </p>
         <span className='inline-flex justify-center mt-4 space-x-5 sm:ml-auto sm:mt-0 sm:justify-start'>
-          <a href='#' className='text-gray-400 hover:text-gray-500'>
+          <a href='#' className='text-slate-400 hover:text-slate-500'>
             <span className='sr-only'>Facebook</span>
             <svg
               className='w-6 h-6'
@@ -27,7 +24,7 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href='#' className='text-gray-400 hover:text-gray-500'>
+          <a href='#' className='text-slate-400 hover:text-slate-500'>
             <span className='sr-only'>Instagram</span>
             <svg
               className='w-6 h-6'
@@ -41,7 +38,7 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href='#' className='text-gray-400 hover:text-gray-500'>
+          <a href='#' className='text-slate-400 hover:text-slate-500'>
             <span className='sr-only'>Twitter</span>
             <svg
               className='w-6 h-6'
@@ -52,7 +49,7 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href='#' className='text-gray-400 hover:text-gray-500'>
+          <a href='#' className='text-slate-400 hover:text-slate-500'>
             <span className='sr-only'>GitHub</span>
             <svg
               className='w-6 h-6'
@@ -66,7 +63,7 @@ const Footer = () => {
             </svg>
           </a>
 
-          <a href='#' className='text-gray-400 hover:text-gray-500'>
+          <a href='#' className='text-slate-400 hover:text-slate-500'>
             <span className='sr-only'>Dribbble</span>
             <svg
               className='w-6 h-6'
