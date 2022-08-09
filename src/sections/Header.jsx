@@ -4,18 +4,18 @@ const Header = () => {
   return (
     <section className='w-full px-6 pb-12 relative md:min-h-screen'>
       <img
-        src='./src/assets/beams_dark.jpg'
+        src='https://raw.githubusercontent.com/hassankotti/husseinaltohami/main/src/assets/beams_dark.jpg'
         alt=''
         className='absolute md:top-1/2 left-1/2 max-w-none -translate-x-1/2 md:-translate-y-1/2 object-cover h-full'
         width='100%'
       />
       <img
-        src='./src/assets/beams.jpeg'
+        src='https://raw.githubusercontent.com/hassankotti/husseinaltohami/main/src/assets/beams.jpeg'
         alt=''
         className='absolute md:top-1/2 left-1/2 max-w-none -translate-x-1/2 md:-translate-y-1/2 object-cover h-full dark:hidden'
         width='100%'
       />
-      <div className='absolute inset-0 bg-[url(./src/assets/grid.svg)] dark:bg-bgGridSlate  bg-center [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0))] dark:[mask-image:linear-gradient(0deg,black,rgba(255,255,255,0))]'></div>
+      <div className='absolute inset-0 bg-bgGrid dark:bg-bgGridSlate  bg-center [mask-image:linear-gradient(0deg,white,rgba(255,255,255,0))] dark:[mask-image:linear-gradient(0deg,black,rgba(255,255,255,0))]'></div>
 
       <div className='mx-auto max-w-7xl'>
         <Navbar />
